@@ -940,6 +940,7 @@ class CLI
         City.all.find_by(id: input).print_data
         City.all.find_by(id: input).destroy
         puts ""
+        #puts ""
         sleep (0.5)
         main_menu
     end
